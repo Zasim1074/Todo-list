@@ -1,0 +1,28 @@
+*{
+    width: auto;
+}
+
+#ulist{
+    color:aqua;
+}
+
+li{
+    width: 20 vmin;
+    text-align-last: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li button{
+    justify-content: right;
+    align-items: right;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    padding: 2px;
+    cursor: pointer;
+}
+li button:hover{
+    border-color: #646cff;
+}
